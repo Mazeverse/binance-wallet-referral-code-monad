@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://binance-wallet-referral-code-monad.vercel.app/sitemap.xml
