@@ -1,48 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Looking for Binance Wallet Referral Code (Not Binance Referral Code)</title>
-  <meta name="description" content="Looking for Binance wallet referral code (not Binance referral code)? Use MONAD for Binance Web3 Wallet and Exchange bonus.">
-
-  <link rel="canonical" href="https://binance-wallet-referral-code-monad.vercel.app/" />
-
-  <meta name="google-site-verification" content="BtBII3918J1J9BnNiNfjVaPn0QXfIj5xoi1G_8qtFk4" />
-  <meta name="naver-site-verification" content="f28f86b7853e4f6704297b86d7def790b41e00e4" />
-
+  <title>Binance Web3 Wallet Referral Code: MONAD</title>
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="container">
+  <header>
+    <div class="logo-badge">Special Offer</div>
+    <h1>Binance Wallet <span class="highlight">Referral Code</span></h1>
+    <p class="subtitle">일반 레퍼럴이 아닌 <strong>Web3 지갑 전용</strong> 코드입니다 👇</p>
+  </header>
 
-  <h1>Looking for Binance Wallet Referral Code (Not Binance Referral Code)</h1>
-  <p class="subtitle">This is NOT a regular Binance referral code 👇</p>
-
-  <div class="card">
-    <h2>🔐 Binance Web3 Wallet Referral Code</h2>
-    <p class="code" id="walletCode">MONAD</p>
-
-    <div class="buttons">
-      <button onclick="copyCode('walletCode')">Copy Code</button>
-      <a href="https://web3.binance.com/referral?ref=MONAD" target="_blank">Open Wallet</a>
+  <main class="card-grid">
+    <!-- Web3 Wallet Card -->
+    <div class="card wallet-card">
+      <div class="card-icon"><i class="fas fa-wallet"></i></div>
+      <h2>🔐 Binance Web3 Wallet</h2>
+      <p class="card-desc">지갑 활성화 시 입력하여 혜택을 받으세요</p>
+      <div class="code-box">
+        <span class="code-text" id="walletCode">MONAD</span>
+        <button class="copy-btn" onclick="copyCode('walletCode')">
+          <i class="far fa-copy"></i> Copy
+        </button>
+      </div>
+      <a href="https://web3.binance.com/referral?ref=MONAD" target="_blank" class="main-link">
+        Open Web3 Wallet <i class="fas fa-external-link-alt"></i>
+      </a>
     </div>
-  </div>
 
-  <div class="card">
-    <h2>💰 Binance Exchange Referral Code</h2>
-    <p class="desc">You can also use the same code on Binance Exchange</p>
-
-    <p class="code" id="exchangeCode">MONAD</p>
-
-    <div class="buttons">
-      <button onclick="copyCode('exchangeCode')">Copy Code</button>
-      <a href="https://www.binance.com/register?ref=MONAD" target="_blank">Sign Up</a>
+    <!-- Exchange Card -->
+    <div class="card exchange-card">
+      <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+      <h2>💰 Binance Exchange</h2>
+      <p class="card-desc">거래소 신규 가입 시에도 동일하게 적용 가능</p>
+      <div class="code-box">
+        <span class="code-text" id="exchangeCode">MONAD</span>
+        <button class="copy-btn" onclick="copyCode('exchangeCode')">
+          <i class="far fa-copy"></i> Copy
+        </button>
+      </div>
+      <a href="https://www.binance.com/register?ref=MONAD" target="_blank" class="main-link secondary">
+        Sign Up Now <i class="fas fa-user-plus"></i>
+      </a>
     </div>
-  </div>
+  </main>
 
+  <footer>
+    <p>© 2026 Binance Partner. All rights reserved.</p>
+  </footer>
 </div>
 
 <script src="script.js"></script>
